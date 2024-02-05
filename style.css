@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: 6px solid black;
+    margin: 2.5rem;
+    border-radius: 15px;
+
+}
+
+.upper, .lower{
+    display: flex;
+    justify-content: center;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.purple{
+    background-color: purple;
+}
+
+
+.flash{                                /*  created new class for use in js to flash a button; */
+    background-color: white;
+}
+
+.userFlash{
+    background-color: black;
+}
